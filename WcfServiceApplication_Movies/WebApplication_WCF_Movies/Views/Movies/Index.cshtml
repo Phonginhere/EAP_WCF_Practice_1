@@ -5,7 +5,11 @@
 }
 
 <h2>Index</h2>
-
+@using (Html.BeginForm("Index", "Movies", FormMethod.Get))
+{
+    @Html.TextBox("Search");
+    <input type="submit" name="submit" value="submit" />
+}
 <p>
     @Html.ActionLink("Create New", "Create")
 </p>

@@ -14,9 +14,26 @@ namespace WebApplication_WCF_Movies.Controllers
         ServiceReference1.Service1Client db = new ServiceReference1.Service1Client();
         // GET: Movies
         [HttpGet]
-        public ActionResult Index()
+        public ActionResult Index(String Search)
         {
             List<Movie> mve_list = new List<Movie>();
+            if (!(String.IsNullOrEmpty(Search)))
+            {
+                var list1 = db.Search(Search);
+                foreach (var item in list1)
+                {
+                    Movie mve = new Movie();
+                    mve.MovieId = item.MovieId;
+                    mve.Title = item.Title;
+                    mve.ReleaseDate = item.ReleaseDate;
+                    mve.RunningTime = item.RunningTime;
+                    mve.GenreId = item.GenreId;
+                    mve.BoxOffice = item.BoxOffice;
+                    mve_list.Add(mve);
+                }
+                return View(mve_list);
+            }
+           
 
             var list = db.GetAll();
 
@@ -33,6 +50,7 @@ namespace WebApplication_WCF_Movies.Controllers
             }
             return View(mve_list);
         }
+
         public ActionResult Details (int id)
         {
             var list = db.GetById(id);
