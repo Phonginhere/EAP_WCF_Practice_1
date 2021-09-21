@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceApplication_Movies", "WcfServiceApplication_Movies\WcfServiceApplication_Movies.csproj", "{A3B3537B-EDE1-47A3-8680-2C905C2EE596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication_WCF_Movies", "WebApplication_WCF_Movies\WebApplication_WCF_Movies.csproj", "{A4F039D7-F5AC-4360-98A2-EC1144E6A652}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A3B3537B-EDE1-47A3-8680-2C905C2EE596} = {A3B3537B-EDE1-47A3-8680-2C905C2EE596}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3B3537B-EDE1-47A3-8680-2C905C2EE596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3B3537B-EDE1-47A3-8680-2C905C2EE596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3B3537B-EDE1-47A3-8680-2C905C2EE596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3B3537B-EDE1-47A3-8680-2C905C2EE596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F039D7-F5AC-4360-98A2-EC1144E6A652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F039D7-F5AC-4360-98A2-EC1144E6A652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F039D7-F5AC-4360-98A2-EC1144E6A652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F039D7-F5AC-4360-98A2-EC1144E6A652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
