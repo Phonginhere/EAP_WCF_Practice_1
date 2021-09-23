@@ -22,7 +22,7 @@ namespace WebApplication_WCF_Movies_Prc2.Controllers
 
         //public JToken Get()
         //{
-        //    return JToken.FromObject(db.GetAll());
+        //    return JToken.FromObject(db.GetAll()); //cái này cũng được
         //}
 
 
