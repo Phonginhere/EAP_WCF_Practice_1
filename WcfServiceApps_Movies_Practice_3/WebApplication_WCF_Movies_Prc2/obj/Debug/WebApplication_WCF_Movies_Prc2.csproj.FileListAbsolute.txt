@@ -56,3 +56,4 @@ c:\users\phong_learning\Documents\visual studio 2015\Projects\WcfServiceApps_Mov
 c:\users\phong_learning\Documents\visual studio 2015\Projects\WcfServiceApps_Movies_Practice_3\WebApplication_WCF_Movies_Prc2\bin\System.Web.Http.WebHost.xml
 c:\users\phong_learning\Documents\visual studio 2015\Projects\WcfServiceApps_Movies_Practice_3\WebApplication_WCF_Movies_Prc2\obj\Debug\WebApplication_WCF_Movies_Prc2.dll
 c:\users\phong_learning\Documents\visual studio 2015\Projects\WcfServiceApps_Movies_Practice_3\WebApplication_WCF_Movies_Prc2\obj\Debug\WebApplication_WCF_Movies_Prc2.pdb
+C:\Users\Phong_learning\Documents\visual studio 2015\Projects\WcfServiceApps_Movies_Practice_3\WebApplication_WCF_Movies_Prc2\obj\Debug\WebApplication_WCF_Movies_Prc2.csprojResolveAssemblyReference.cache
