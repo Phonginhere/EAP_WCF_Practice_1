@@ -82,7 +82,7 @@ namespace WcfServiceApps_Movies_Practice_3
         public List<Movies> Search(string Search)
         {
             List<Movies> movielist = new List<Movies>();
-            var list = from m in db.Movies where m.Title == Search select m;
+            var list = from m in db.Movies where m.Title.Contains(Search) select m;
             foreach (var item in list)
             {
                 Movies m = new Movies();
